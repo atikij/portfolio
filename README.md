@@ -35,3 +35,9 @@
    ```sh
    git clone https://github.com/atikij/portfolio.git
    cd portfolio
+2. **Установите зависимости:**
+   ```sh
+   npm install
+4. **Запустите проект:**
+   ```sh
+   npm run dev
