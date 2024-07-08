@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     ghPages({
       out: 'dist',  // Директория для развертывания
+      branch: 'gh-pages' // Указываем ветку для развертывания
     })
   ],
   base: '/portfolio/', // Замените 'your-repository-name' на имя вашего репозитория
