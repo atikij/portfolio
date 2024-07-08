@@ -1,6 +1,7 @@
 # Сайт портфолио by atikij
 
 Ознакомиться: [https://atikij.github.io/portfolio/](https://atikij.github.io/portfolio/)
+![Видео демонстрация](src/assets/Demonstration.mp4)
 
 ## Описание
 
