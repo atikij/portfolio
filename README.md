@@ -1,29 +1,36 @@
-# portfolio
+# Сайт портфолио by atikij
 
-This template should help get you started developing with Vue 3 in Vite.
+Ознакомиться: [https://atikij.github.io/portfolio/](https://atikij.github.io/portfolio/)
 
-## Recommended IDE Setup
+## Описание
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Это портфолио сайт, созданный с использованием Vite и Vue.js. Он предоставляет информацию о моих проектах, навыках и достижениях.
 
-## Customize configuration
+## Процесс разработки
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Этот проект находится в процессе разработки. Вот текущие задачи и планы:
 
-## Project Setup
+### Задачи
 
-```sh
-npm install
-```
+- [x] Инициализация проекта
+- [x] Создание структуры сайта
+- [x] Разработка основных страниц
+- [ ] Оптимизация производительности
+- [ ] Доработка адаптивности
+- [ ] Тестирование и отладка
+- [ ] Добавление анимаций и улучшение UX
 
-### Compile and Hot-Reload for Development
+### Планы
 
-```sh
-npm run dev
-```
+- Улучшить навигацию по сайту
+- Добавить блог для публикации технических статей
+- Интегрировать форму для обратной связи
 
-### Compile and Minify for Production
+## Установка и использование
 
-```sh
-npm run build
-```
+Для локального запуска сайта выполните следующие шаги:
+
+1. **Клонирование репозитория:**
+   ```sh
+   git clone https://github.com/atikij/portfolio.git
+   cd portfolio
