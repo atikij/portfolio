@@ -21,15 +21,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Set git user
-        run: |
-          git config --global user.name 'nikita'
-          git config --global user.email 'nik.belyaev.2005@bk.ru'
-
       - name: Build Vite app
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        run: npm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist
