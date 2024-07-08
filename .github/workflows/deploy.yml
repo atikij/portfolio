@@ -3,7 +3,7 @@ name: Deploy Vite app to GitHub Pages
 on:
   push:
     branches:
-      - gh-pages  # Ветка, с которой будет выполняться деплой
+      - gh-pages
 
 jobs:
   build-deploy:
@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          ref: gh-pages # Указываем ветку для checkout
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
