@@ -3,6 +3,7 @@ name: Deploy Vite app to GitHub Pages
 on:
   push:
     branches:
+      - main  # Триггер на ветку main
 
 jobs:
   build-deploy:
@@ -26,3 +27,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          branch: gh-pages  # Ветка для деплоя
+          folder: dist  # Директория сборки
+          token: ${{ secrets.GITHUB_TOKEN }}  # Используем стандартный GitHub токен
