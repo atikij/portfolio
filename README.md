@@ -1,7 +1,8 @@
 # Сайт портфолио by atikij
 
 Ознакомиться: [https://atikij.github.io/portfolio/](https://atikij.github.io/portfolio/)
-![Видео демонстрация](src/assets/Demonstration.mp4)
+
+![Home page](src/assets/Demonstration-ezgif.com-video-to-gif-converter.gif)
 
 ## Описание
 
@@ -25,7 +26,6 @@
 
 - Улучшить навигацию по сайту
 - Добавить блог для публикации технических статей
-- Интегрировать форму для обратной связи
 
 ## Установка и использование
 
@@ -35,3 +35,9 @@
    ```sh
    git clone https://github.com/atikij/portfolio.git
    cd portfolio
+2. **Установите зависимости:**
+   ```sh
+   npm install
+4. **Запустите проект:**
+   ```sh
+   npm run dev
