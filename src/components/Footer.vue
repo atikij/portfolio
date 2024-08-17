@@ -21,7 +21,7 @@
       <p>About</p>
       <p>About</p>
       <p>About</p>
-      <p>About</p>
+      <p>№№№№№</p>
     </div>
     <div class="backdrop"></div>
   </footer>
