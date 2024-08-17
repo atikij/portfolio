@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <div class="circle">
-      <!-- Изображение в круге -->
       <img src="https://avatars.githubusercontent.com/u/91220269?s=400&u=d94546aa589752fab2b810b34d4fd32bcaea6b40&v=4" alt="Profile Picture">
     </div>
     <div class="content">
