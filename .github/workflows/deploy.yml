@@ -3,7 +3,7 @@ name: Deploy Vite app to GitHub Pages
 on:
   push:
     branches:
-      - main  # Триггер на ветку main
+      - main  # Ветка, при пуше в которую будет запускаться деплой
 
 jobs:
   build-deploy:
@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Полный клон репозитория
+
+      - name: Navigate to project directory
+        run: cd portfolio  # Переход в директорию с проектом
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -19,14 +24,14 @@ jobs:
           node-version: '16'
 
       - name: Install dependencies
-        run: npm install
+        run: npm install  # Установка зависимостей
 
       - name: Build Vite app
-        run: npm run build
+        run: npm run build  # Сборка проекта
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages  # Ветка для деплоя
-          folder: dist  # Директория сборки
-          token: ${{ secrets.GITHUB_TOKEN }}  # Используем стандартный GitHub токен
+          branch: gh-pages
+          folder: dist
+          token: ${{ secrets.GITHUB_TOKEN }}
