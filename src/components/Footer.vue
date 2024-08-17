@@ -19,9 +19,15 @@
     </div>
     <div class="col col2">
       <p>About</p>
-      <p>About</p>
-      <p>About</p>
-      <p>About</p>
+      <p>Our mission</p>
+      <p>Privacy Policy</p>
+      <p>Terms of service</p>
+    </div>
+    <div class="col col3">
+      <p>Services</p>
+      <p>Products</p>
+      <p>Join our team</p>
+      <p>Partner with us</p>
     </div>
     <div class="backdrop"></div>
   </footer>
