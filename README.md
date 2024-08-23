@@ -2,7 +2,6 @@
 
 Ознакомиться: [https://atikij.github.io/portfolio/](https://atikij.github.io/portfolio/)
 
-![Home page](src/assets/Demonstration-ezgif.com-video-to-gif-converter.gif)
 
 ## Описание
 
