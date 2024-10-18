@@ -20,8 +20,7 @@
     <div class="col col2">
       <p>About</p>
       <p>About</p>
-      <p>About</p>
-      <p>№№№№№</p>
+      <p>About</p> 
     </div>
     <div class="backdrop"></div>
   </footer>
