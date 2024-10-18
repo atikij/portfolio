@@ -5,7 +5,7 @@
     </div>
     <div class="content">
       <h1>Привет</h1>
-      <p>Меня зовут Никита и я Fullstack Developer из Москвы</p>
+      <p>Меня зовут Никита и я Frontend Developer из Москвы</p>
     </div>
   </div>
 </template>
